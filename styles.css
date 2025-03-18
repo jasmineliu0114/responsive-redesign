@@ -1,0 +1,78 @@
+.navbar {
+    height: 80px;
+}
+.navbar-brand img {
+    height: 100%;
+    max-height: 60px;
+    width: auto;
+}
+.hero {
+    position: relative;
+    background: url("assets/site_BG.jpg") no-repeat bottom right/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #003366;
+    flex-direction: column;
+}
+.hero-content {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+.hero-box {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-logo {
+    max-width: 15vw;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.hero-text {
+    text-align: center;
+    width: 100%;
+    max-width: 50vw;
+    /* height: auto; */
+}
+@media (max-width: 768px) {
+    .hero-box {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    .hero-content {
+        width: 90%;
+    }
+    .hero-logo {
+        max-width: 20vw;
+    }
+    .hero-text {
+        max-width: 80%;
+    }
+}
+.services .service-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #212529;
+    color: white;
+}
