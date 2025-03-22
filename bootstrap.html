@@ -21,11 +21,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link fw-bold" href="bootstrap.html">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#">ABOUT US</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#">SERVICES</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#">CLIENTS</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold active" href="bootstrap.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="dummy.html">ABOUT US</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="dummy.html">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="dummy.html">CLIENTS</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="dummy.html">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -44,26 +44,56 @@
     </header>
 
     <!-- Services Section -->
-    <section class="services py-5">
+    <section class="services py-5" style="background-color: #ffffff;">
         <div class="container">
-            <h2 class="text-center mb-4">Our Services</h2>
+            <h2 class="text-center mb-4" style="color: #C71E2B">Our Services</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="service-item">
-                        <h3>Service 1</h3>
-                        <p>Description of service 1.</p>
+                        <img src="assets/facility.jpg" alt="Facility construction" class="service-icon">
+                        <h3>Facility Construction</h3>
+                        <p>Icenhower has served our clients in the energy industry for over 20 years. As an experienced facility construction provider, we can provide you with all aspects of a facility construction project to...</p>
+                        <a href="dummy.html" class="service-btn">LEARN MORE</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <h3>Service 2</h3>
-                        <p>Description of service 2.</p>
+                        <img src="assets/pipeline.jpg" alt="Pipeine construction" class="service-icon">
+                        <h3>Pipeline Construction</h3>
+                        <p>The ever growing demand to safely deliver oil and gas via pipeline has been instrumental in our focus on research and process improvements. Our business is more than just putting pipe in the ground...</p>
+                        <a href="dummy.html" class="service-btn">LEARN MORE</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <h3>Service 3</h3>
-                        <p>Description of service 3.</p>
+                        <img src="assets/where.jpg" alt="US map highlighting states of operation" class="service-icon">
+                        <h3>Where We Operate</h3>
+                        <p>In the early years, Icenhower Oil and Gas began working in northern Louisiana.  The Haynesville Shale increased our demand to broaden our work area.  With the foresight of other plays to be...</p>
+                        <a href="dummy.html" class="service-btn">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History -->
+    <section class="history py-5" style="background-color: #e1ecf2;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <img src="assets/history_img.jpeg" alt="Vintage image of contruction." class="history-img">
+                    <div class="d-flex flex-wrap justify-content-center gap-3 history-btn-container">
+                        <a href="dummy.html" class="history-btn">WHAT WE OFFER</a>
+                        <a href="dummy.html" class="history-btn">LEARN ABOUT US</a>
+                        <a href="dummy.html" class="history-btn">ASK A QUESTION</a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center" style="color:#303030;">
+                    <div class="history-text">
+                        <h2 class="text-left mb-4" style="color: #003366;">Company History</h2>
+                        <p>Icenhower Oil and Gas Inc., founded in 1994 by Tim Icenhower is an oilfield construction and pipeline company headquartered in Bossier City, Louisiana.</p>
+                        <p>We currently operate 60 service crews and 10 pipeline installation crews throughout seven (7) states.</p>
+                        <p>In the oil and gas industry there are numerous organizations who will promise success, but our experience, knowledge, and safety culture permits us to guarantee it!</p>
                     </div>
                 </div>
             </div>
@@ -72,9 +102,25 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 All Rights Reserved Icenhower Oil & Gas</p>
+        <div class="footer-content">
+            <img src="assets/footer-logo.png" alt="Icenhower logo with white text" class="footer-logo">
+            <div class="container text-center">
+                <div class="row justify-content-center text-center mt-3">
+                    <div class="col-12 col-sm-4 col-md-2 mb-2">
+                        <a href="dummy.html" class="footer-link">Safety Page</a>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-2 mb-2">
+                        <a href="dummy.html" class="footer-link">HR Page</a>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-2 mb-2">
+                        <a href="dummy.html" class="footer-link">Miscellaneous Items</a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2025 All Rights Reserved Icenhower Oil & Gas</p>
+        </div> 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
