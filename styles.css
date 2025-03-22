@@ -1,5 +1,12 @@
 .navbar {
     height: 80px;
+    position: relative;
+    z-index: 1000;
+}
+.navbar-collapse {
+    z-index: 1050;
+    background-color: #D9CDC0;
+    text-align: center;
 }
 .navbar-brand img {
     height: 100%;
@@ -42,6 +49,7 @@
     text-align: center;
     color: #003366;
     flex-direction: column;
+    z-index: 1;
 }
 .hero-content {
     position: absolute;
